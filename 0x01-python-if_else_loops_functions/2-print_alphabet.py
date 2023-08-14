@@ -1,2 +1,5 @@
-#!/bin/bash
-python3 - c "import py_compile; py_compile.compile('$PYFILE', '$PYFILE' + 'c')"
+#!/usr/bin/python3
+"""Print the alphabet in lowercase, not followed by a new line."""
+
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")
