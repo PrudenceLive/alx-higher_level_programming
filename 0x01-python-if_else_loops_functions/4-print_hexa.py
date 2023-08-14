@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-number = 3.14159
-print(f"Float: {number:.2f}")
+
+"""Print numbers 0 to 98 in decimal and hexadecimal."""
+for number in range(0, 99):
+    print("{} = {}".format(number, hex(number)))
